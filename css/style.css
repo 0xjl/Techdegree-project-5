@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 12px 12px 12px;
+    grid-template-rows: 12px 12px 12px;
+}
+
+
+
+
