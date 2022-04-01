@@ -11,7 +11,7 @@ function userInput() {
     box = document.getElementById(`box${counter}`)
     text = box.getAttribute("data-caption");
     if (text.includes(userInput) === true) {
-        box.style.display="inline-block";
+        box.style.display="flex";
     } else {
         box.style.display="none";
     }
